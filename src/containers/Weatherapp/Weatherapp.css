@@ -1,0 +1,29 @@
+.currentforecast {
+    width: 70%;
+    min-height: 420px;
+    z-index: 100;
+    margin-top: 8px;
+}
+
+.weatherapp1 {
+    display: flex;
+}
+
+.searchbar1{
+    margin-right: auto;
+    width: 30%;
+    height: 50px;
+}
+
+@media(max-width: 600px) {
+    .currentforecast {
+        min-height: 450px;
+        width: 100%;
+        margin-top: 24px;
+    }
+    .searchbar1{
+        margin-right: auto;
+        width: 0;
+        height: 0;
+    }
+}

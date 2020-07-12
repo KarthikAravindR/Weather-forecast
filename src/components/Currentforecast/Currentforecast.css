@@ -1,0 +1,64 @@
+.currentforecast {
+    width: 100%;
+    
+}
+
+.currentlocation {
+    margin: 0 0 0 32px;
+    text-align: left;
+    font-size: 2.7rem;
+    color: #01202c;
+}
+.location {
+    font-size:3.3rem;
+    margin-bottom:16px
+}
+.locationname{
+    display:inline-block;
+    margin-left:24px;
+    text-transform: capitalize;
+}
+
+.weatherdescription {
+    font-size: 1rem;
+}
+
+.weatherdetails {
+    margin: 16px auto 0 auto;
+    color: #01202c;
+    width: fit-content;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.currenttemp{
+    font-size: 7rem;
+}
+.feelsliketemp,.windspeed {
+    font-size: 2rem;
+}
+
+@media(max-width: 600px) {
+    .currentlocation {
+        margin: 32px 0 0 8px;
+        text-align: left;
+        font-size: 2rem;
+        color: #01202c;
+    }
+    .location {
+        font-size:2.5rem;
+        margin-bottom:8px;
+        margin-left: 0;
+    }
+    .locationname{
+        display:inline-block;
+        margin-left:12px;
+    }
+    .currenttemp{
+        font-size: 5rem;
+    }
+    .weatherdetails {
+        margin: 48px auto 0 auto;
+    }
+}

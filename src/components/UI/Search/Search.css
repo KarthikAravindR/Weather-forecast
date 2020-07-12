@@ -1,0 +1,54 @@
+.form1 {
+    display: flex;
+    z-index: 10;
+    margin-top: 16px;
+}
+.searchbar {
+    padding:16px 16px;
+    box-sizing: border-box;
+    width: 70%;
+    color: white;
+    border-radius: 5px;
+    border: teal;
+    background-color: #01202c;
+    z-index: 10;
+}
+.searchbar:hover, .searchbar:focus {
+    border-radius: 5px;
+    border: teal;
+    background-color: #01202c;
+}
+
+.button2 {
+    z-index: 10;
+    display: grid;
+    place-items: center;
+    padding:15px 16px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    width: 50px;
+    color: white;
+    border-radius: 5px;
+    border: teal;
+    background-color: #01202c;
+}
+
+@media(max-width: 600px) {
+    .form1{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 4;
+        margin-top: 0;
+    }
+    .searchbar {
+        width: 100%;
+        border-radius: 0;   
+    }
+    .button2 {
+        width: 50px;
+        border-radius: 0;
+        margin-left: 0;
+    }
+}
